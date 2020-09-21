@@ -22,6 +22,15 @@
           </div>
         </div>
       </div>
+      <div class="footer-to-top">
+        <div class="to-top">
+          <div class="to-top__inner">
+            <div class="to-top__icon">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </template>

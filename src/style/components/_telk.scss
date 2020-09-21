@@ -1,0 +1,32 @@
+.talk {
+  background-image: url("../../public/img/talk-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  // .talk__inner
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 87px 0;
+  }
+
+  // .talk__title
+
+  &__title {
+    max-width: 770px;
+    padding-bottom: 36px;
+    color: #fff;
+  }
+}
+.container {
+}
+.text-red {
+}
+.talk-btn-wrapp {
+}
+.btn-create-account {
+}

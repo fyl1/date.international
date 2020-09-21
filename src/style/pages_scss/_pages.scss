@@ -11,10 +11,9 @@ h1 {
 
 h2 {
   font-family: "Roboto-Medium", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 41px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
 }
 
 h3 {
@@ -46,7 +45,8 @@ input {
   height: 100%;
 }
 
-.text--orange {
+.text-red {
+  color: $c-t-r;
 }
 .text-bold {
   font-weight: bold;
