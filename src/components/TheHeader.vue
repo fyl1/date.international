@@ -2,15 +2,16 @@
   <nav class="navbar navbar-light">
     <div class="container">
       <router-link class="navbar-brand" :to="{ name: 'home' }">
-        <div class="logo-img">
-          <img src="..img/date.international.svg" alt="logo" />
+        <div class="header__logo">
+          <div class="logo-img">
+            <div class="logo__inner">
+              <img src="img/date.international.svg" alt="logo" />
+            </div>
+          </div>
         </div>
       </router-link>
 
       <ul v-if="!isAuthenticated" class="nav navbar-nav pull-xs-right">
-        <li class="nav-item">
-          <router-link class="nav-link" active-class="active" exact :to="{ name: 'home' }">Home</router-link>
-        </li>
         <li class="nav-item">
           <router-link
             class="nav-link registration-btn"
