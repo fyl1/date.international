@@ -11,10 +11,14 @@
         </div>
       </router-link>
 
-      <ul v-if="!isAuthenticated" class="nav navbar-nav pull-xs-right">
-        <li class="nav-item">
+      <ul
+        v-if="!isAuthenticated"
+        class="nav navbar-nav registration-btn pull-xs-right"
+      >
+        <li class="registration-btn__li">
+          <!-- nav-item -->
           <router-link
-            class="nav-link registration-btn"
+            class="nav-link btn-registration"
             active-class="active"
             exact
             :to="{ name: 'login' }"
@@ -25,15 +29,30 @@
       </ul>
       <ul v-else class="nav navbar-nav pull-xs-right">
         <li class="nav-item">
-          <router-link class="nav-link" active-class="active" exact :to="{ name: 'home' }">Home</router-link>
+          <router-link
+            class="nav-link"
+            active-class="active"
+            exact
+            :to="{ name: 'home' }"
+            >Home</router-link
+          >
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" active-class="active" :to="{ name: 'article-edit' }">
+          <router-link
+            class="nav-link"
+            active-class="active"
+            :to="{ name: 'article-edit' }"
+          >
             <i class="ion-compose"></i>&nbsp;New Article
           </router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" active-class="active" exact :to="{ name: 'settings' }">
+          <router-link
+            class="nav-link"
+            active-class="active"
+            exact
+            :to="{ name: 'settings' }"
+          >
             <i class="ion-gear-a"></i>&nbsp;Settings
           </router-link>
         </li>
@@ -46,7 +65,8 @@
               name: 'profile',
               params: { username: currentUser.username }
             }"
-          >{{ currentUser.username }}</router-link>
+            >{{ currentUser.username }}</router-link
+          >
         </li>
       </ul>
     </div>
