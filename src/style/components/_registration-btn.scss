@@ -1,0 +1,33 @@
+.registration-btn {
+  width: 160px;
+  height: 45px;
+
+  /* Primary */
+
+  border: 2px solid #f48c7f;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+  // .registration-btn__li
+
+  &__li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.btn-registration {
+  font-family: $OS-7;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-transform: uppercase;
+
+  /* #333333 */
+
+  color: $c-t-ti;
+}

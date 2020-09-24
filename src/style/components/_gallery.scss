@@ -1,0 +1,68 @@
+.gallery {
+  // .gallery__inner
+
+  &__inner {
+  }
+
+  // .gallery__items
+
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+
+.gallery-header {
+  // .gallery-header__inner
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.gallery-header-left-block {
+  display: flex;
+}
+
+.gallery-header-age_to {
+  // .gallery-header-age_to__wrapp
+
+  &__wrapp {
+  }
+}
+
+.gallery-header-btn-wrapp {
+}
+
+.btn-search-now {
+}
+.gallery-header-right-block {
+}
+.btn-advanced-search {
+}
+.card {
+  // .gallery-card__inner
+
+  &__inner {
+  }
+
+  // .gallery-card__title
+
+  &__title {
+  }
+
+  // .gallery-card__text
+
+  &__text {
+  }
+}
+.gallery-card-img {
+  // .gallery-card-img__inner
+
+  &__inner {
+  }
+}
+.btn-show-more-girl {
+}
